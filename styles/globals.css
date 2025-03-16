@@ -1,0 +1,28 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section-padding {
+    padding: 4rem 0;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #3b82f6 0%, #10b981 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, #3b82f6 0%, #10b981 100%);
+}
+
+.shadow-soft {
+    box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1), 0 8px 10px -6px rgba(59, 130, 246, 0.05);
+}
